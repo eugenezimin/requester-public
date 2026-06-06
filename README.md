@@ -2,7 +2,7 @@
 
 ### Native HTTP load testing for macOS — fire configurable traffic at any endpoint and watch it respond in real time.
 
-![[main_window.png]]
+![[images/main_window.png]]
 
 ## What is Requester?
 
@@ -23,37 +23,37 @@ Built entirely in **Swift and SwiftUI** with structured concurrency under the 
 
 Everything that defines a run, summarized in one card: transport, RPS-per-channel and channel count, stop conditions, active headers, backpressure queue depth, User-Agent preset, and the computed total target RPS.
 
-![[dashboard.png]]
+![[images/dashboard.png]]
 
 ### ⚡ Load configuration — dial in exactly how hard to push
 
 Throughput is modeled as **RPS per channel × channels**, so the total target rate is explicit and predictable. Set your channel count, per-channel rate, stop conditions (total requests _or_ duration), backpressure queue depth, and pick a User-Agent from realistic browser presets.
 
-![[load_tab.png]]
+![[images/load_tab.png]]
 
 ### 📈 Live chart — four series, fully interactive
 
 The chart plots **Sent**, **Received**, **Failures**, and **Error Rate** as separate series. Tap any legend pill to toggle a series on or off. Drag the chart to pan back through time, and set the visible window from 5 seconds up to 5 minutes.
 
-![[chart.png]]
+![[images/chart.png]]
 
 ### 📊 Stats — the numbers that matter
 
 A clean grid of live stat cards: elapsed time, sent, succeeded, failed, current RPS, average RPS, average latency, backpressure queue depth, and your configured target.
 
-![[stats.png]]
+![[images/stats.png]]
 
 ### 🔍 Request & Response inspector
 
 See the exact request being fired and inspect live responses as they come back. Toggle **Sliding** mode to keep a rolling window of the most recent responses, cap how many you retain, and flip on **Truncated** to collapse long bodies.
 
-![[texts.png]]
+![[images/texts.png]]
 
 ### 🧩 Header editor with autocomplete
 
 Add, edit, and remove request headers in a scrollable editor. Header-name fields autocomplete against the standard HTTP request header set as you type.
 
-![[headers.png]]
+![[images/headers.png]]
 
 ### 🎛️ Full control, always one click away
 
