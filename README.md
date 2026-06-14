@@ -1,4 +1,4 @@
-# Requester
+# Requester v.10
 
 Native HTTP load testing for macOS — fire configurable traffic at any endpoint and watch it respond in real time.
 
